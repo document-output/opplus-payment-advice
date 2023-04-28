@@ -1,0 +1,41 @@
+{
+  "id": "ed5fcb5d-01fd-46e4-a935-5dcf52b76771",
+  "name": "OPplus payment advises send by Document Output",
+  "publisher": "github.com/document-output",
+  "version": "1.0.2.0",
+  "brief": "Extension that enables Document Output to send OPplus payment advices",
+  "description": "Document Output - OPplus payment advises will enable companies to send OPplus payment advises from Continia Document Output",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "https://continia-tools.gitbook.io/help/document-output/send-opplus-payment-advices",
+  "url": "https://github.com/document-output/opplus-payment-advice",
+  "logo": "./res/images/logo.png",
+  "dependencies": [
+    {
+      "id": "88cf5d4c-8afc-4a98-9cb7-212196c51d74",
+      "name": "Continia OPplus",
+      "publisher": "Continia Software",
+      "version": "2.1800.20210420.0"
+    },
+    {
+      "id": "f4b69b55-c90d-4937-8f53-2742898fa948",
+      "name": "Continia Document Output",
+      "publisher": "Continia Software",
+      "version": "7.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 62040,
+      "to": 62049
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://github.com/document-output/opplus-payment-advice/wiki/",
+  "showMyCode": true,
+  "runtime": "7.0",
+  "features": [ "TranslationFile"],
+  "supportedLocales": ["en-US","de-DE"]
+}
